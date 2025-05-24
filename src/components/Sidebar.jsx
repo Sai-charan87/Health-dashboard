@@ -16,7 +16,7 @@ import {
 const Sidebar = () => {
   return (
     <aside className={styles.sidebar}>
-      <div>
+      <div className={styles.topSection}>
         <h3 className={styles.sectionTitle}>General</h3>
         <nav className={styles.nav}>
           <a href="#">
@@ -50,11 +50,11 @@ const Sidebar = () => {
         </nav>
       </div>
 
-      <nav className={styles.nav}>
+      <div className={styles.bottomSection}>
         <a href="#" className={styles.bottomLink}>
           <Settings className={styles.icon} /> Setting
         </a>
-      </nav>
+      </div>
     </aside>
   );
 };

@@ -1,0 +1,36 @@
+.upcomingSchedule {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .sectionTitle {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .scheduleDay {
+    margin-bottom: 20px;
+  }
+  
+  .scheduleDay h4 {
+    margin-bottom: 10px;
+  }
+  
+  /* Add this new rule to arrange cards horizontally */
+  .scheduleDayCards {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap; /* allows wrapping on smaller screens */
+  }
+  
+  
+  .dayTitle {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
