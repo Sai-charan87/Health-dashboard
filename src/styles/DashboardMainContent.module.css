@@ -1,0 +1,40 @@
+.dashboardMainContent {
+    padding: 24px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  
+  /* Responsive: 2-column layout for medium+ screens */
+  @media screen and (min-width: 768px) {
+    .dashboardMainContent {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  .leftSection {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  
+  .overviewCard {
+    background-color: #ffffff;
+    padding: 16px;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .overviewTitle {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: #2b2b2b;
+  }
+  
+  .rightSection {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  
