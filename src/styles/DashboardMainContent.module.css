@@ -11,7 +11,12 @@
       grid-template-columns: 1fr 1fr;
     }
   }
-  
+  .dashboardOverview {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap; /* Optional: better responsiveness */
+}
+
   .leftSection {
     display: flex;
     flex-direction: column;

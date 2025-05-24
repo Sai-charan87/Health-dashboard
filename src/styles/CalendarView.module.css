@@ -1,0 +1,55 @@
+.calendarView {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .calendarTitle {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .calendarGrid {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .calendarHeader {
+    font-size: 12px;
+    color: #888;
+    font-weight: 500;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  
+  .calendarCell {
+    font-size: 12px;
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #eee;
+    height: 40px;
+  }
+  
+  .dayCell {
+    font-weight: 500;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+  }
+  .appointmentCards {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .appointmentCard {
+    background-color: #f9f9f9;
+    padding: 12px 16px;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+    font-size: 14px;
+  }
+  

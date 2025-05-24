@@ -16,7 +16,7 @@ const DashboardOverview = () => (
 
 const DashboardMainContent = () => {
   return (
-    <div className={styles.dashboardContainer}>
+    <div className={styles.dashboardMainContent}>
       {/* Left Section */}
       <div className={styles.leftSection}>
         <div className={styles.overviewCard}>
